@@ -1,0 +1,30 @@
+.div-one{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 20px auto;
+    border-radius: 75px; /* half hight and width we have a circle or we can put 50%*/
+    outline: 2px solid black;
+    
+}
+
+.two{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 20px auto;
+    border-top-left-radius: 20px 80px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+
+.three{
+    width: 150px;
+    height: 150px;
+    background-color: #c5bdbd;
+    margin: 20px auto;
+    border-radius: 6px; 
+}
+
+
