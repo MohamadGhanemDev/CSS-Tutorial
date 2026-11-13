@@ -1,0 +1,39 @@
+/*
+
+- Global variable
+- Local variable
+var function => var(Variable Name , Fallback Value )
+
+the fallback in case there is problem or broke in the main color
+*/
+
+:root{
+    --mainColor: blue;
+    --mainPadding: 20px;
+}
+.main{
+    background-color: var(--mainColor, black);
+    color: white;
+    padding: calc(20px + var(--mainPadding)) ;
+}
+
+h2{
+    color: var(--mainColor, black);
+    background-color: #eee;
+    padding: var(--mainPadding);
+}
+
+p{
+color: var(--mainColor ,black);
+border: 2px solid var(--mainColor, black);
+padding: var(--mainPadding);
+}
+a:hover {
+    color: var(--mainColor, black);
+}
+
+.local{
+    --mainColor: black; /*Local variable*/
+    background-color: var(--mainColor);  /*scoping to the local variable first if there is one he took the global one*/
+    color: white;
+}
