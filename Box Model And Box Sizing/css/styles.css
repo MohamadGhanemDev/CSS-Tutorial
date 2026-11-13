@@ -1,0 +1,94 @@
+.parent{
+    width: 600px;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ddd;
+    
+    
+}
+
+.one{
+    background-color: #eee;
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.parent2{
+    width: 620px; /* +20px to let them back alongside each other*/
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+.two{
+    background-color: #eee;
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.parent3{       /* inspect and go to the box sizing model*/
+    width: 600px; 
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+.three{
+    background-color: #eee;
+    width: 300px;
+    float: left;
+    padding: 37px;
+    border: 37px solid red; /* calculate the border and the padding with the width*/
+    /*box-sizing: content-box;*/ /*default*/
+    box-sizing: border-box;
+}/*box sizing allow to make the content beside each other with any needed padding margin and borders size*/
+
+
+
+.parent4{       /* inspect and go to the box sizing model*/
+    width: 600px; 
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+.four{
+    background-color: #eee;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    border: 10px solid red; /*then width now 340px*/
+    /*box-sizing: content-box;*/ /*default*/
+    box-sizing: border-box;
+    height: 40px;
+}/*box sizing respect and allow to make the content beside each other with any 
+needed padding margin and borders size except the height but we can use the padding height instead*/
+
+
+.parent5{       /* inspect and go to the box sizing model*/
+    width: 600px; 
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ddd; 
+}
+
+.five{
+    background-color: #eee;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    border: 10px solid red; /*then width now 340px*/
+    /*box-sizing: content-box;*/ /*default*/
+    box-sizing: border-box;
+    
+}/*box sizing respect and allow to make the content beside each other with any 
+needed padding margin and borders size except the height but we can use the padding height instead*/
