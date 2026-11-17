@@ -1,0 +1,57 @@
+/* 
+align items vertically => align items stretch => 
+*/
+
+*{
+    box-sizing: border-box; /*this line of code changes all calculations of padding and width :p ... */
+}
+.flex{
+    /*overflow: hidden;  /*no need for it while using flex*/
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.flex div{
+    background-color: #f00;
+    color: white;
+    /* width: 25%; */
+    width: calc(100%/3);
+    text-align: center;
+    padding: 20px;
+}
+
+.flex .one {
+    height: 80px;
+}/*if we remove the height for the div one it will stretch like div 3*/
+
+.float .one{
+    height: 150px;
+}
+.flex .two, 
+.float .two{
+    height: 200px;
+} 
+
+.float{
+    overflow: hidden;
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.float div{
+    background-color: #f00;
+    color: white;
+    float: left;
+    /* width: 25%; */
+    width: calc(100%/3);
+    text-align: center;
+    padding: 20px;
+}
+
