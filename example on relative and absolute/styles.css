@@ -1,0 +1,12 @@
+.parent {
+    position: relative;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.button {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
