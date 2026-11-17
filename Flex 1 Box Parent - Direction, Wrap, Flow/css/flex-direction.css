@@ -1,0 +1,69 @@
+/* 
+flex-direction: row  (default)
+flex-direction: row; Default
+flex-wrap: nowrap; Default
+
+fle-flow: [flex-direction] + [flex-wrap]
+*/
+
+
+/* 
+*{
+direction: rtl;
+}
+
+*/
+/* try it with flex-direction: row; */
+
+
+*{
+    box-sizing: border-box; /*this line of code changes all calculations of padding and width :p ... */
+}
+.flex{
+    /*overflow: hidden;  /*no need for it while using flex*/
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* flex-wrap: nowrap; */
+
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    flex-flow: row wrap-reverse; /*short hand*/
+
+
+}
+
+.flex div{
+    background-color: #f00;
+    color: white;
+    /*float: left;  /*no need for it while using flex*/
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.float{
+    overflow: hidden;
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.float div{
+    background-color: #f00;
+    color: white;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,91 @@
+/*
+Flexible box
+there is a properties for Parent and child
+
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+.flex{
+    /*overflow: hidden;  /*no need for it while using flex*/
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+
+}
+
+.flex div{
+    background-color: #f00;
+    color: white;
+    /*float: left;  /*no need for it while using flex*/
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+.flex2{
+    /*overflow: hidden;  /*no need for it while using flex*/
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.flex2 , div{ /* div inside flex2 if we add comma , every div without class take the same  style*/
+    background-color: #f00;
+    color: white;
+    /*float: left;  /*no need for it while using flex*/
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.flex3 , div{ /* */
+    background-color: #f00;
+    color: white;
+    /*float: left;  /*no need for it while using flex*/
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+.flex3{
+    /*overflow: hidden;  /*no need for it while using flex*/
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+.float{
+    overflow: hidden;
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.float div{
+    background-color: #f00;
+    color: white;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
