@@ -1,0 +1,45 @@
+/* 
+filters
+search for the support 
+search for filters list
+
+go to website can i use
+*/
+
+
+*{
+    box-sizing: border-box;
+
+}
+div{
+    display: inline-block;
+}
+.img1{
+    width: 400px;
+    height: 400px;
+    transition: 0.3s;
+    filter: grayscale(100%);
+}
+.img1:hover{
+    filter: grayscale(0%);
+}
+
+.img2{
+    width: 400px;
+    height: 400px;
+    transition: 0.3s;
+    filter: blur(4px);
+}
+.img2:hover{
+    filter: blur(0px);
+}
+
+.img3{
+    width: 400px;
+    height: 400px;
+    transition: 0.9s;
+    filter: invert(100%);
+}
+.img3:hover{
+    filter: invert(0%);
+}
