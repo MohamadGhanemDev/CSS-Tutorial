@@ -1,0 +1,55 @@
+/* 
+flex-direction: row  (default)
+flex-direction: row; Default
+flex-wrap: nowrap; Default
+
+fle-flow: [flex-direction] + [flex-wrap]
+*/
+
+*{
+    box-sizing: border-box; /*this line of code changes all calculations of padding and width :p ... */
+}
+.flex{
+    /*overflow: hidden;  /*no need for it while using flex*/
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: row wrap;
+
+    /* justify-content: start; */
+    justify-content: end;
+}
+
+.flex div{
+    background-color: #f00;
+    color: white;
+    /* width: 25%; */
+    width: calc(100%/3);
+    text-align: center;
+    padding: 20px;
+}
+
+
+.float{
+    overflow: hidden;
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.float div{
+    background-color: #f00;
+    color: white;
+    float: left;
+    /* float: right; */
+    /* width: 25%; */
+    width: calc(100%/3);
+    text-align: center;
+    padding: 20px;
+}
+.float .class5{
+    float: right;
+}
