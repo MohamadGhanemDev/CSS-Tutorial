@@ -1,0 +1,38 @@
+/* 
+align-items => talk with items 
+
+align-content => talks with all content
+*/
+*{
+    box-sizing: border-box;
+}
+.flex{
+    background-color: #eee;
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    /* align-items: flex-end;
+    align-content: flex-end; */
+
+    /* align-items: flex-start;
+    align-content: flex-start; */
+
+    
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    align-content: space-evenly;
+
+
+}
+
+.flex div{
+    background-color: #f00;
+    color: white;
+    width: calc(100%/3);
+    text-align: center;
+    padding: 20px;
+}
