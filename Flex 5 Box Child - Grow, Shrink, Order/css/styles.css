@@ -1,0 +1,25 @@
+/* 
+flex-grown => default value is 0 .  its active when having the enough width
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+.flex{
+    background-color: #eee;
+    width: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+}
+.flex div{
+    background-color: red;
+    color: white;
+    width: 80px ; /*go to inspect increase and decrease this*/
+    text-align: center;
+    padding: 20px;
+    margin-right: 5px;
+    flex-grow: 1;
+
+}
