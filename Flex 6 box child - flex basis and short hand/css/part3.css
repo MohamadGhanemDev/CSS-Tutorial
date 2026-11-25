@@ -1,0 +1,32 @@
+/* 
+inline for the in element and inline flex
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.flex {
+    background-color: #eee;
+    width: 800px;
+    padding: 20px;
+    margin: 20px auto;
+    /* display: flex; */
+    display: inline-flex;
+}
+.flex div{
+    background-color: red;
+    color: white;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 5px;
+}
+.in{
+    display: inline-block;
+}
