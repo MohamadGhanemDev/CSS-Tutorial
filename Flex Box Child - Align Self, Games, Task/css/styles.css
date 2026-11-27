@@ -1,0 +1,50 @@
+/* 
+visit and play flex box froggy
+and flex box zombies
+go to edit website holly grail web design
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+.flex{
+    background-color: #eee;
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.flex .div1 , .div2 , .div3 , .div4 , .div5 , .div6{
+    background-color: red;
+    color: white;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 5px;
+}
+
+/*----------------------------------------------------------  */
+
+
+.flex-noStretch{
+    background-color: #eee;
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    
+}
+
+.flex-noStretch .div10{
+    background-color: red;
+    color: white;
+    width: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 5px;
+    align-self: flex-start;
+}
